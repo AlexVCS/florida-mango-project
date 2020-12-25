@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    font-family: sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+
+.main-header {
+    text-align: center;
+    color: rgba(59, 130, 246);
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    border-radius: 9999px;
+    border-width: 2px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: white;
+    background-color: transparent;
+}
