@@ -22,6 +22,12 @@ body {
 	padding-bottom: 10px;
 }
 
+#mango-photo {
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+}
+
 .description-container {
 	text-align: center;
 	padding-bottom: 10px;
