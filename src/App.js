@@ -4,10 +4,8 @@ import { mangoArray } from './components/Mangoes.js';
 
 function App() {
   const [ counter, setCounter ] = useState(0);
-  const [ pristine, setPristine ] = useState(true);
   const incrementCounter = () => {
     setCounter((counter + 1) % mangoArray.length);
-    setPristine(false);
   }
 
   const decrementCounter = () => {
@@ -23,12 +21,12 @@ function App() {
           <img id="mango-photo" src={mangoArray[counter].image} alt="Sweet Tart" />
         </div>
         <div className="description-container">
-          {mangoArray[counter].description}
+          <p>{mangoArray[counter].description}</p>
         </div>
       </div>
 
       <div className="button-container">
-        <button disabled={pristine} onClick={decrementCounter} id="previous" className="btn">&#8592;</button>
+        <button onClick={decrementCounter} id="previous" className="btn">&#8592;</button>
         <button onClick={incrementCounter} id="next" className="btn">&#8594;</button>
       </div>
     </div>

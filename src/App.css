@@ -44,5 +44,6 @@ body {
 	padding-right: 0.75rem;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
-	color: black;
+	color: white;
+	background: transparent;
 }
