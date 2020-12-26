@@ -19,12 +19,15 @@ body {
 .photo-container {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	padding-bottom: 10px;
+	height: 500px;
+	width: 900px;
 }
 
 #mango-photo {
 	max-height: 100%;
-	max-width: 100%;
+	width: 100%;
 	object-fit: contain;
 }
 

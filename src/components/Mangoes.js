@@ -2,7 +2,7 @@ export const mangoArray = [
     {
         name: 'Sweet Tart',
         image: 'https://i.postimg.cc/zDcjj1Xj/sweet-tart.jpg',
-        description: 'Sweet tart mango was developed by the Zill nursery in Boyton Beach, Florida. It\'s a seedling of Zill Indochinese and tastes like an amazing candy. Smooth and lives up to the name.'
+        description: 'Sweet tart mango was developed by the Zill Nursery in Boyton Beach, Florida. It\'s a seedling of Zill Indochinese and tastes like an amazing candy. Smooth and lives up to the name.'
     },
     {
         name: 'Glenn',
