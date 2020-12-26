@@ -3,12 +3,28 @@ body {
 	font-family: sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial,
 		"Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
 		"Segoe UI Symbol", "Noto Color Emoji";
+	color: white;
 }
 
 .main-header {
 	text-align: center;
 	color: rgba(59, 130, 246);
 	padding-top: 10px;
+}
+
+.mango-name {
+	text-align: center;
+}
+
+.photo-container {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+.description-container {
+	text-align: center;
+	padding-bottom: 10px;
 }
 
 .button-container {
@@ -20,7 +36,7 @@ body {
 	border-radius: 9999px;
 	border-width: 2px;
 	font-weight: bold;
-	font-size: 1rem;
+	font-size: 2.5rem;
 	line-height: 1.75rem;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
