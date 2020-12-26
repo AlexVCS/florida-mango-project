@@ -8,6 +8,7 @@ body {
 .main-header {
 	text-align: center;
 	color: rgba(59, 130, 246);
+	padding-top: 10px;
 }
 
 .button-container {
