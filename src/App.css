@@ -22,7 +22,7 @@ body {
 	align-items: center;
 	padding-bottom: 10px;
 	height: 500px;
-	width: 900px;
+	/* width: 900px; */
 }
 
 #mango-photo {
@@ -33,7 +33,9 @@ body {
 
 .description-container {
 	text-align: center;
+	align-self: center;
 	padding-bottom: 10px;
+	width: 95%;
 }
 
 .button-container {
