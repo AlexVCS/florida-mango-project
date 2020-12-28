@@ -17,18 +17,16 @@ body {
 }
 
 .photo-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-bottom: 10px;
 	height: 500px;
-	/* width: 900px; */
+	width: 500px;
+	margin: 0 auto;
 }
 
 #mango-photo {
-	max-height: 100%;
+	object-fit: cover;
+	object-position: top;
+	height: 100%;
 	width: 100%;
-	object-fit: scale-down;
 }
 
 .description-container {
