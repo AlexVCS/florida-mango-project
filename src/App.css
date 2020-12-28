@@ -56,3 +56,10 @@ body {
 	color: white;
 	background: transparent;
 }
+
+@media (max-width: 325px) {
+	.photo-container {
+		height: 300px;
+		width: 300px;
+	}
+}
