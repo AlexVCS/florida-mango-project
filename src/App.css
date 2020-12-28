@@ -30,10 +30,10 @@ body {
 }
 
 .description-container {
+	margin: 0 auto;
 	text-align: center;
-	align-self: center;
 	padding-bottom: 10px;
-	width: 95%;
+	width: 500px;
 }
 
 .button-container {
@@ -60,6 +60,10 @@ body {
 @media (max-width: 500px) {
 	.photo-container {
 		height: 300px;
+		width: 300px;
+	}
+
+	.description-container {
 		width: 300px;
 	}
 }
