@@ -57,7 +57,7 @@ body {
 	background: transparent;
 }
 
-@media (max-width: 325px) {
+@media (max-width: 500px) {
 	.photo-container {
 		height: 300px;
 		width: 300px;
