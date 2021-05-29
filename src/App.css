@@ -1,14 +1,13 @@
 body {
-	background-color: black;
-	font-family: sans-serif, "Segoe UI", "Roboto", "Helvetica Neue", Arial,
-		"Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-		"Segoe UI Symbol", "Noto Color Emoji";
-	color: white;
+	background-color: #ff8243;
+	font-family: "Noto Sans", sans-serif;
+	font-family: "Rubik", sans-serif;
+	color: #080402;
 }
 
 .main-header {
 	text-align: center;
-	color: rgba(59, 130, 246);
+	color: #347c2c;
 	padding-top: 10px;
 }
 
@@ -25,6 +24,7 @@ body {
 #mango-photo {
 	object-fit: cover;
 	object-position: top;
+	border-radius: 5px;
 	height: 100%;
 	width: 100%;
 }
@@ -54,7 +54,7 @@ body {
 	padding-right: 0.75rem;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
-	color: white;
+	color: #080402;
 	background: transparent;
 }
 

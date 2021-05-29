@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import { mangoArray } from './components/Mangoes.js';
 
+
 function App() {
   const [ counter, setCounter ] = useState(0);
   const incrementCounter = () => {
@@ -10,6 +11,12 @@ function App() {
 
   const decrementCounter = () => {
     setCounter((mangoArray.length + counter - 1) % mangoArray.length);
+  }
+
+  const rightArrowPress = (event) => {
+    if (event.key === 39) {
+      incrementCounter()
+    }
   }
 
   return (
@@ -26,8 +33,8 @@ function App() {
       </div>
 
       <div className="button-container">
-        <button onClick={decrementCounter} id="previous" className="btn">&#8592;</button>
-        <button onClick={incrementCounter} id="next" className="btn">&#8594;</button>
+        <button onClick={decrementCounter}  id="previous" className="btn">&#8592;</button>
+        <button onClick={incrementCounter} onKeyDown={(event) => rightArrowPress(event)} id="next" className="btn">&#8594;</button>
       </div>
     </div>
   );
