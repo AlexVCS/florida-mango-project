@@ -1,70 +1,70 @@
 body {
-	background-color: #ff8243;
-	font-family: "Noto Sans", sans-serif;
-	font-family: "Rubik", sans-serif;
-	color: #080402;
+  background-color: #ff8243;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+  color: #080402;
 }
 
 .main-header {
-	text-align: center;
-	color: #347c2c;
-	padding-top: 10px;
+  text-align: center;
+  color: #347c2c;
+  padding-top: 10px;
 }
 
 .mango-name {
-	text-align: center;
+  text-align: center;
 }
 
 .photo-container {
-	height: 500px;
-	width: 500px;
-	margin: 0 auto;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
 }
 
 #mango-photo {
-	object-fit: cover;
-	object-position: top;
-	border-radius: 5px;
-	height: 100%;
-	width: 100%;
+  object-fit: contain;
+  object-position: top;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
 }
 
 .description-container {
-	margin: 0 auto;
-	text-align: center;
-	padding-bottom: 10px;
-	width: 500px;
-	height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+  width: 500px;
+  height: 100px;
 }
 
 .button-container {
-	display: flex;
-	justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .btn {
-	border-radius: 9999px;
-	border-width: 2px;
-	font-weight: bold;
-	font-size: 2.5rem;
-	line-height: 1.75rem;
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	color: #080402;
-	background: transparent;
+  border-radius: 9999px;
+  border-width: 2px;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #080402;
+  background: transparent;
 }
 
 @media (max-width: 500px) {
-	.photo-container {
-		height: 300px;
-		width: 300px;
-	}
+  .photo-container {
+    height: 300px;
+    width: 300px;
+  }
 
-	.description-container {
-		width: 300px;
-	}
+  .description-container {
+    width: 300px;
+  }
 }
