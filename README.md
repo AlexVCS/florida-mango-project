@@ -1,5 +1,9 @@
 # Mangoes of South Florida
 
+<p align="center">
+    <img alt="Maha chanok mango" src="images/maha-chanok.png" height="250" width="200">
+</p>
+
 Learn about different kinds of Florida mangoes :) Photos taken by my sister and yours truly (Alex).
 
 [🥭](https://floridamangoes.netlify.app/) 😋
@@ -9,10 +13,6 @@ Learn about different kinds of Florida mangoes :) Photos taken by my sister and 
 - [Screenshots](#screenshots)
 - [Setup](#setup)
 - [Technologies](#technologies)
-
-<p align="center">
-    <img alt="Maha chanok mango" src="images/maha-chanok.png">
-</p>
 
 ### Screenshots
 
