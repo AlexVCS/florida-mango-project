@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import { mangoArray } from "./components/Mangoes.js";
+// import { DarkModeToggle } from './components/toggle';
+
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -12,14 +14,9 @@ function App() {
     setCounter((mangoArray.length + counter - 1) % mangoArray.length);
   };
 
-  const rightArrowPress = (event) => {
-    if (event.key === 39) {
-      incrementCounter();
-    }
-  };
-
   return (
     <div className="app">
+      {/* <DarkModeToggle /> */}
       <h1 className="main-header">Mangoes of South Florida 🥭</h1>
       <div className="mango-content-container">
         <h1 className="mango-name">{mangoArray[counter].name}</h1>
@@ -39,12 +36,7 @@ function App() {
         <button onClick={decrementCounter} id="previous" className="btn">
           &#8592;
         </button>
-        <button
-          onClick={incrementCounter}
-          onKeyDown={(event) => rightArrowPress(event)}
-          id="next"
-          className="btn"
-        >
+        <button onClick={incrementCounter} id="next" className="btn">
           &#8594;
         </button>
       </div>

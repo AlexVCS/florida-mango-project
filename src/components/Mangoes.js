@@ -36,4 +36,10 @@ export const mangoArray = [
     description:
       "Peach cobbler is out of this world! Uber sweet, as if you weren't eating a fruit from a tree. Eat this mango alone or after you eat any others, it takes sweetness to a whole new level.",
   },
+  {
+    name: "Orange Sherbet",
+    image: "https://i.postimg.cc/ZRCvGGYT/IMG-1638.jpg",
+    description:
+      "Orange sherbet is a lemon meringue seedling from the Zill Nursery in Boyton Beach, Florida. The taste and intensity of the flavor is unbelievable! Strong citrus notes with lucious sweet mango hints coming together to form a taste sensation.",
+  },
 ];

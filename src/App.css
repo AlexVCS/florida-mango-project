@@ -2,8 +2,15 @@ body {
   background-color: #ff8243;
   font-family: "Noto Sans", sans-serif;
   font-family: "Rubik", sans-serif;
-  color: #080402;
+  /* --color-foreground: #080402; */
 }
+
+/* @media (prefers-color-scheme: dark) {
+  body {
+    --color-background: #efefef;
+    --color-foreground: #1f2023;
+  }
+} */
 
 .main-header {
   text-align: center;
