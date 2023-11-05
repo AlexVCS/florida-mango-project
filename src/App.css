@@ -12,6 +12,12 @@ body {
   }
 } */
 
+/* 
+.react-toggle {
+  display: flex;
+  flex-direction: row;
+} */
+
 .main-header {
   text-align: center;
   color: #347c2c;
