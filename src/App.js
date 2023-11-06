@@ -14,8 +14,15 @@ function App() {
     setCounter((mangoArray.length + counter - 1) % mangoArray.length);
   };
 
+  // const handleKeyDown = (event) => {
+  //   if (event.key === "ArrowLeft") {
+  //     console.log('hi this is cool')
+  //     decrementCounter()
+  //   }
+  // }
+
   return (
-    <div className="app">
+    <div className="app" tabIndex={0}>
       {/* <DarkModeToggle /> */}
       <h1 className="main-header">Mangoes of South Florida 🥭</h1>
       <div className="mango-content-container">
@@ -33,7 +40,12 @@ function App() {
       </div>
 
       <div className="button-container">
-        <button onClick={decrementCounter} id="previous" className="btn">
+        <button
+          onClick={decrementCounter}
+          // onKeyDown={handleKeyDown}
+          id="previous"
+          className="btn"
+        >
           &#8592;
         </button>
         <button onClick={incrementCounter} id="next" className="btn">
