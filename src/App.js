@@ -6,6 +6,8 @@ import { mangoArray } from "./components/Mangoes.js";
 
 function App() {
   const [counter, setCounter] = useState(0);
+  const [mango] = useState(true)
+
   const incrementCounter = () => {
     setCounter((counter + 1) % mangoArray.length);
   };
@@ -14,17 +16,32 @@ function App() {
     setCounter((mangoArray.length + counter - 1) % mangoArray.length);
   };
 
-  // const handleKeyDown = (event) => {
-  //   if (event.key === "ArrowLeft") {
-  //     console.log('hi this is cool')
-  //     decrementCounter()
-  //   }
-  // }
+  const handleKeyDown = (event) => {
+    if (event.key === "ArrowLeft") {
+      console.log('hi this is cool')
+      decrementCounter()
+    }
+    if (event.key === "ArrowRight") {
+      console.log("hi this is cool");
+      incrementCounter();
+    }
+  }
 
   return (
-    <div className="app" tabIndex={0}>
+    <div
+      className="app"
+      tabIndex={0}
+      onKeyDown={handleKeyDown}
+      onBlur={(e) => e.target.focus()}
+      ref={(div) => {
+        mango && div && div.focus();
+      }}
+    >
       {/* <DarkModeToggle /> */}
       <h1 className="main-header">Mangoes of South Florida 🥭</h1>
+      <h4 className="instructions">
+        Navigate with arrow buttons or left or right arrow keys
+      </h4>
       <div className="mango-content-container">
         <h1 className="mango-name">{mangoArray[counter].name}</h1>
         <div className="photo-container">
@@ -40,12 +57,7 @@ function App() {
       </div>
 
       <div className="button-container">
-        <button
-          onClick={decrementCounter}
-          // onKeyDown={handleKeyDown}
-          id="previous"
-          className="btn"
-        >
+        <button onClick={decrementCounter} id="previous" className="btn">
           &#8592;
         </button>
         <button onClick={incrementCounter} id="next" className="btn">
