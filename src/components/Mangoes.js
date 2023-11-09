@@ -40,6 +40,6 @@ export const mangoArray = [
     name: "Orange Sherbet",
     image: "https://i.postimg.cc/ZRCvGGYT/IMG-1638.jpg",
     description:
-      "Orange sherbet is a lemon meringue seedling from the Zill Nursery in Boyton Beach, Florida. The taste and intensity of the flavor is unbelievable! Strong citrus notes with lucious sweet mango hints coming together to form a taste sensation.",
+      "Orange sherbet is a lemon meringue seedling from the Zill Nursery. Strong citrus notes with lucious sweet mango hints come together to form a taste sensation.",
   },
 ];
