@@ -40,7 +40,7 @@ function App() {
       {/* <DarkModeToggle /> */}
       <h1 className="main-header">Mangoes of South Florida 🥭</h1>
       <h4 className="instructions">
-        Navigate with arrow buttons or left or right arrow keys
+        Navigate with arrow buttons or left/right arrow keys
       </h4>
       <div className="mango-content-container">
         <h1 className="mango-name">{mangoArray[counter].name}</h1>
