@@ -48,7 +48,7 @@ function App() {
           <img
             id="mango-photo"
             src={mangoArray[counter].image}
-            alt="Florida mango"
+            alt={mangoArray[counter].name + " mango"}
           />
         </div>
         <div className="description-container">
