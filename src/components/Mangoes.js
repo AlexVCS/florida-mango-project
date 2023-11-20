@@ -21,7 +21,7 @@ export const mangoArray = [
     name: "Pineapple Pleasure",
     image: "https://i.postimg.cc/6pSZzK7d/pineapple-pleasure.jpg",
     description:
-      "This mango has pineapple notes that will make you think twice about what fruit you're eating! A great balance of sweet and tart flavors make this mango a winner.",
+      "The taste of Pineapple pleasure will make you think twice about what fruit you're eating! A great balance of sweet and tart flavors make this mango a winner.",
   },
   {
     name: "Maha Chanok",
