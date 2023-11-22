@@ -28,7 +28,7 @@ export const mangoArray = [
     image:
       "https://i.postimg.cc/HswfnYkN/Screen-Shot-2022-10-06-at-6-33-59-PM.png",
     description:
-      "Maha Chanok is a Thai mango variety that was developed in Chiang Mai. It boasts an incredibly sweet, smooth, and rich flavor.",
+      "Maha Chanok is an incredibly sweet Thai mango. It's got a smooth, floral, and rich flavor.",
   },
   {
     name: "Peach Cobbler",
